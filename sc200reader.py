@@ -21,7 +21,7 @@ class Sc200reader:
             ]
 
     
-    def read_register(self, register_raw):
+    def read_float(self, register_raw):
        """This function converts the register address in the manual to
        a decimal register and reads this register from the ISE.
       
@@ -42,7 +42,8 @@ class Sc200reader:
           result = 999999
             
        return round(result,2)
-          
-
 
         
+
+    
+

@@ -5,7 +5,11 @@ ise = Sc200reader(address=14)
 
 
 
-for i in range(100):
+for i in range(1):
     time.sleep(0.5)
-    print(ise.read_register(40013))
+    print(i + 100)
+    try:
+        print(ise.write(40121))
+    except Exception as e:
+        print(e)
     
