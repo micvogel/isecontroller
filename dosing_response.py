@@ -11,11 +11,11 @@ for i in range(5):
     time.sleep(1)
     
 #Dose 8 ml
-new_dosingpump.dose(8.70,100)
-time.sleep(150)
+new_dosingpump.dose(30,40)
+time.sleep(10)
 #Dose 10 ml
-new_dosingpump.dose(10.57,100)
-time.sleep(150)
+# new_dosingpump.dose(10,5)
+
 
 
 

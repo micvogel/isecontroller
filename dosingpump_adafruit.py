@@ -20,7 +20,7 @@ class Dosingpump:
         time.sleep(pumptime)
         GPIO.output(self.pumpPin2, GPIO.LOW)
         self.p.ChangeDutyCycle(0)
-
+        
 
     def cleanup(self):
         self.p.stop()
